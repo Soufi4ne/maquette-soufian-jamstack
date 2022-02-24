@@ -1,0 +1,35 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+main{
+    padding: 20px 5%;
+    max-width: 1720px;
+    margin-top: 75px;
+    background-color: #F1F1F1;
+}
+
+form{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+}
+
+form input{
+    border-radius: 17px;
+    padding: 10px;
+    height: 30px;
+    width: 360px ;
+    border: 4px solid #fb4275 ;
+    color: #3f3f3f;
+    margin: 25px;
+}
+
+.divall h1{
+    
+ margin-bottom: 0px;
+    
+}

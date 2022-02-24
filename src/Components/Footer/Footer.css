@@ -1,0 +1,35 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+footer{
+    /* display: flex; */
+    flex-direction: column;
+    	justify-content: flex-start;
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.lignemetro{
+    color:#FB4275 ;
+    width: 1600px;
+    border: solid 2px;
+}
+  
+footer a {
+    float: left;
+    padding: 12px 7%;
+    /* padding-left: 7%; */
+    border-radius: 4px;
+}
+
+.logofooter{
+    margin-left: 25px;
+}
+  
+
+.logofooter{
+padding-top: 20px;
+padding-bottom: 17px;
+}

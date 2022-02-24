@@ -1,0 +1,132 @@
+
+ 
+ 
+ .conteneur{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-start;
+    background-color: #F1F1F1;
+    height: 570px;
+}
+ 
+ 
+ .cards{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* .hr {
+    height: 5px;
+    width: 75px;
+    background-color: #fb4275;
+    display: flex;
+    align-items: center;
+    
+} */
+
+/* 
+hr {
+    
+} */
+
+
+.cardmarket{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    margin: auto 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+.cardmarket:hover{
+    cursor: pointer;
+    -webkit-box-shadow:0px 0px 105px 10px rgba(251,66,118,0.9);
+    -moz-box-shadow: 0px 0px 105px 10px rgba(251,66,118,0.9);
+    box-shadow: 0px 0px 105px 10px  rgba(251, 66, 118, 0.9);
+    border-radius: 15px;
+}
+
+.cardmarket img {
+    height: 75px;
+    width: 75px;
+}
+
+.cardtechno{
+    margin: auto 15px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    background-color: white;
+
+}
+
+.cardtechno:hover{
+    cursor: pointer;
+    -webkit-box-shadow:0px 0px 105px 10px rgba(251,66,118,0.9);
+    -moz-box-shadow: 0px 0px 105px 10px rgba(251,66,118,0.9);
+    box-shadow: 0px 0px 105px 10px  rgba(251, 66, 118, 0.9);
+    border-radius: 15px;
+}
+
+.cardtechno img {
+    height: 75px;
+    width: 75px;
+}
+
+
+.carddata{
+    margin: auto 15px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    background-color: white;
+
+
+}
+.carddata:hover{
+    cursor: pointer;
+    -webkit-box-shadow:0px 0px 105px 10px rgba(251,66,118,0.9);
+    -moz-box-shadow: 0px 0px 105px 10px rgba(251,66,118,0.9);
+    box-shadow: 0px 0px 105px 10px  rgba(251, 66, 118, 0.9);
+    border-radius: 15px;
+}
+
+.carddata img{
+    height: 75px;
+    width: 75px;
+}
+
+
+.cardcustomer{
+    margin: auto 15px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    background-color: white;
+
+}
+.cardcustomer:hover{
+    cursor: pointer;
+    -webkit-box-shadow:0px 0px 105px 10px rgba(251,66,118,0.9);
+    -moz-box-shadow: 0px 0px 105px 10px rgba(251,66,118,0.9);
+    box-shadow: 0px 0px 105px 10px  rgba(251, 66, 118, 0.9);
+    border-radius: 15px;
+}
+
+.cardcustomer img{
+    height: 75px;
+    width: 75px;
+}
+
+.divtitreetp{
+    margin-bottom: 35px;
+}
+
+
+@media screen and (max-width:762px){
+    .cards{
+        display: flex ;
+        flex-direction: column;
+        
+    }
+}
