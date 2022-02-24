@@ -22,25 +22,25 @@ export default function Servicess() {
             <div className='cards'>
 
                 <div className='cardmarket'>
-                    <img src={seo}/>
+                    <img src={seo} alt='designed by Soufiane the famous artist'/>
                     <h2>Market Research</h2>
                     <p>Lorem ipsum dolor sit amet, <br/>consectetur adipisicing elit,<br/> sed do eiusmod tempor.</p>
                 </div>
 
                 <div className='cardtechno'>
-                    <img src={technology} />
+                    <img src={technology} alt='designed by Soufiane the famous artist'/>
                     <h2>Latest Techno</h2>
                     <p>Lorem ipsum dolor sit amet,<br/> consectetur adipisicing elit, <br/>sed do eiusmod tempor.</p>
                 </div>
 
                 <div className='carddata'>
-                    <img src={cloud}/>
+                    <img src={cloud}alt='designed by Soufiane the famous artist'/>
                     <h2>Data Processing</h2>
                     <p>Lorem ipsum dolor sit amet,<br/> consectetur adipisicing elit,<br/> sed do eiusmod tempor.</p>
                 </div>
 
                 <div className='cardcustomer'>
-                    <img src={support} />
+                    <img src={support} alt='designed by Soufiane the famous artist'/>
                     <h2>Customer Support</h2>
                     <p>Lorem ipsum dolor sit amet, <br/>consectetur adipisicing elit, <br/>sed do eiusmod tempor.</p>
                 </div>

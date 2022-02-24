@@ -12,7 +12,7 @@ export default function Main() {
                   when an <br/> unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               <button>GET STARTED </button>
           </div>
-          <div className='divimg'> <img src={banner}></img></div>
+          <div className='divimg'> <img src={banner}alt='designed by Soufiane the famous artist'></img></div>
 
         </div>
         

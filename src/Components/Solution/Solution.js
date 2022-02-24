@@ -24,7 +24,7 @@ Hendrerit omittantur mel, es vidit eu lorem animal.</li>
            </div>
 
            <div className='divimage'>
-                <img src={marketing}/>
+                <img src={marketing} alt='designed by Soufiane the famous artist'/>
            </div>
 
        </section>
